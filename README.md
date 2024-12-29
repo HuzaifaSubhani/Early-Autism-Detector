@@ -1,83 +1,106 @@
-Here’s a polished and professional GitHub README template for your *Early Autism Detector* prototype:
+
+# Autism Early Signs Explorer  
+
+Interactive tools and support for parents and caregivers to identify early signs of autism in children.  
+
+![App Screenshot](front.png)  
+
+## Overview  
+
+Autism Early Signs Explorer is a prototype tool designed to help parents and caregivers detect potential early signs of autism in children. Through interactive questionnaires, video analysis (prototype), and access to educational resources, the app fosters awareness and provides support for timely intervention.  
+
+This project was built in *4 hours* as part of a hackathon, showcasing the power of rapid prototyping to address societal challenges.  
 
 ---
 
-# Early Autism Detector  
-A prototype tool designed to assist in the early detection of autism by analyzing behavioral patterns. Built as part of the *Techathon* hackathon in under 4 hours, this project aims to showcase the potential of technology in addressing important societal challenges.  
+## Key Features  
 
----
+- **Interactive Tools**:  
+  - Start a questionnaire to assess behavioral patterns.  
+  - Upload videos for initial analysis of signs such as repetitive movements or lack of eye contact (prototype feature).  
 
-## Features  
-- **Behavioral Analysis**: Identifies key indicators such as:  
-  - Lack of eye contact  
-  - Delayed speech development  
-  - Repetitive movements  
-- **Data-Driven Insights**: Processes behavioral data to flag potential signs of autism.  
-- **Quick and Lightweight**: A prototype focused on demonstrating feasibility and future potential.  
+- **Support Network**:  
+  - Join discussion forums to connect with other parents and caregivers.  
+  - Access professional consultations and expert guidance.  
+  - Explore a library of educational resources on autism awareness and support.  
 
----
-
-## Why Early Autism Detection?  
-Early intervention is crucial for individuals with autism, as it can significantly improve their communication, learning, and social skills. This project is an attempt to leverage technology to aid caregivers, educators, and medical professionals in identifying autism at an early stage.  
+- **Fast Prototyping**:  
+  Built entirely within *4 hours*, demonstrating how tech can address critical issues effectively.  
 
 ---
 
 ## Tech Stack  
-- **Backend**: Python  
-- **Machine Learning**: Scikit-learn, Pandas  
-- **Data Visualization**: Matplotlib (optional for insights visualization)  
+
+- **Frontend**:  
+  - Built using **Next.js** for a responsive and modern UI design.  
+
+- **Backend**:  
+  - Developed with **FastAPI**, ensuring a lightweight and high-performance backend.  
+
+- **Database**:  
+  - **CassandraDB** was used for embeddings and managing behavioral data efficiently.  
 
 ---
 
 ## How to Run the Project  
-1. Clone the repository:  
+
+### Prerequisites  
+- Node.js and npm installed  
+- Python 3.10+ installed  
+- CassandraDB setup  
+
+### Frontend Setup  
+1. Navigate to the `frontend` directory:  
    ```bash  
-   git clone https://github.com/your-username/early-autism-detector.git  
+   cd frontend  
+   ```  
+2. Install dependencies:  
+   ```bash  
+   npm install  
+   ```  
+3. Start the development server:  
+   ```bash  
+   npm run dev  
    ```  
 
-2. Navigate to the project directory:  
+### Backend Setup  
+1. Navigate to the `backend` directory:  
    ```bash  
-   cd early-autism-detector  
+   cd backend  
    ```  
-
+2. Create a virtual environment:  
+   ```bash  
+   python -m venv venv  
+   source venv/bin/activate  # For Windows: venv\Scripts\activate  
+   ```  
 3. Install dependencies:  
    ```bash  
    pip install -r requirements.txt  
    ```  
-
-4. Run the prototype:  
+4. Start the backend server:  
    ```bash  
-   python main.py  
+   uvicorn main:app --reload  
    ```  
 
 ---
 
 ## Future Enhancements  
-This prototype was built in 4 hours, and there’s immense potential to expand its capabilities:  
-- **Enhanced Dataset**: Use a larger, validated dataset for more accurate predictions.  
-- **Integration with Wearables**: Gather real-time data from wearable devices.  
-- **User-Friendly Interface**: Build a web or mobile app for easy accessibility.  
-- **Improved ML Models**: Incorporate deep learning techniques for better precision.  
+
+- Refine video analysis capabilities to improve accuracy using advanced machine learning models.  
+- Incorporate multilingual support for wider accessibility.  
+- Expand the resource library with more materials tailored to different user needs.  
+- Enable real-time video analysis for quicker feedback.  
 
 ---
 
-## Contributors  
-- **[Your Name](https://linkedin.com/in/your-profile)** – Backend Development, Machine Learning  
-- **[Abdullah's Name](https://linkedin.com/in/abdullah-profile)** – Collaboration, Concept Development  
+## Contributions  
 
----
-
-## Acknowledgments  
-A big thank you to:  
-- **BUDS** for organizing the *Techathon*.  
-- **Shahood**, the president of BUDS, for his leadership.  
-- **Hamza**, the faculty advisor, for his guidance.  
+Contributions are welcome! Please fork this repository, make your changes, and submit a pull request.  
 
 ---
 
 ## License  
+
 This project is licensed under the [MIT License](LICENSE).  
 
 ---
-
-Let me know if you need help customizing any section or adding placeholders for additional files!
