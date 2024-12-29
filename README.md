@@ -44,12 +44,6 @@ This project was built in *4 hours* as part of a hackathon, showcasing the power
 
 ## How to Run the Project  
 
-### Prerequisites  
-- Node.js and npm installed  
-- Python 3.10+ installed  
-- CassandraDB setup  
-
-### Frontend Setup  
 1. Navigate to the `frontend` directory:  
    ```bash  
    cd frontend  
@@ -62,28 +56,6 @@ This project was built in *4 hours* as part of a hackathon, showcasing the power
    ```bash  
    npm run dev  
    ```  
-
-### Backend Setup  
-1. Navigate to the `backend` directory:  
-   ```bash  
-   cd backend  
-   ```  
-2. Create a virtual environment:  
-   ```bash  
-   python -m venv venv  
-   source venv/bin/activate  # For Windows: venv\Scripts\activate  
-   ```  
-3. Install dependencies:  
-   ```bash  
-   pip install -r requirements.txt  
-   ```  
-4. Start the backend server:  
-   ```bash  
-   uvicorn main:app --reload  
-   ```  
-
----
-
 ## Future Enhancements  
 
 - Refine video analysis capabilities to improve accuracy using advanced machine learning models.  
